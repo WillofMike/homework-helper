@@ -1,73 +1,52 @@
-## Project Description-
--This is a math homework helper and answers most general questions about anything.
+# Homework Helper
 
-## What problem does your project solve?
--Quick answer for general questions and help with showing their work in math with a solution.
+## Motivation for the project-
+Some of the best solving methods are hidden to common users or requires more of a archaic method of doing so. I watched a lot of people struggle with problem solving and keeping people focused. The purpose of this project is to keep people on task all while making the task easier at the same time.
 
-## Who has this problem?
--Any kind of student in a math program.
+## The link to the app-
 
-## How will your project solve this problem?
-It will generate a small text answer for general questions and produce the results for the math solution.
+https://homework-helper-85c1a.firebaseapp.com/
 
-## What inputs does it need?
-Input for short general questions. Input for a math problem.
+## Walk through the app with screen shots
 
-## What outputs does it produce?
-The short answer will generate as an output and also generate a image for a math solution.
+You can start by searching any math or science related question or general searches here:
+![alt text](https://github.com/mwil3/q1-project-proposals/blob/master/Screen%20Shot%202017-09-15%20at%201.35.55%20PM.png)
 
-## What web API(s) will it use?
-Wolfram Alpha- Short answer, show steps
+Then your search results will generate into this field:
+![alt text](https://github.com/mwil3/q1-project-proposals/blob/master/Screen%20Shot%202017-09-15%20at%201.36.04%20PM.png)
+
+Which would generate a result that would look something similar to this if your had a math problem:
+![alt text](https://github.com/mwil3/q1-project-proposals/blob/master/Screen%20Shot%202017-09-15%20at%201.49.10%20PM.png)
+
+Then off to the right of the screen you'll notice a small instruction. When you type out the form below that looks like this:
+![alt text](https://github.com/mwil3/q1-project-proposals/blob/master/Screen%20Shot%202017-09-15%20at%201.36.24%20PM.png)
+![alt text](https://github.com/mwil3/q1-project-proposals/blob/master/Screen%20Shot%202017-09-15%20at%201.36.55%20PM.png)
+
+Once you pin your rephrasing of the problem. Then you'll notice that it is now pinned where the small instruction list is at here:
+![alt text](https://github.com/mwil3/q1-project-proposals/blob/master/Screen%20Shot%202017-09-15%20at%201.52.09%20PM.png)
+![alt text](https://github.com/mwil3/q1-project-proposals/blob/master/Screen%20Shot%202017-09-15%20at%201.54.39%20PM.png)
+
+
+You'll notice that the additional questions on the form will populate, as well as your problem that you rephrased. You can actively change anything on the form and re-pin it so you can always see your problem that you're working through at that time.
+
+## Instructional Video
+You can find the instructional video [here](https://youtu.be/DNHgi9nn55c)
+## Web API that powers the site-
+[Wolfram Alpha API](https://products.wolframalpha.com/api/)
 
 ## What technologies do you plan to use?
 HTML
 CSS
-CSS Framework
+Semantic UI
+Google Fonts
 Javascript
 JSON
 Ajax
 
 ## Feature list
 
-Allows the user to generate solutions to common questions
-See their solution worked out in front of them.
-Gives suggestions to similar math problems incase the user is stuck.
-If there isn't a solution then we provide another search alternative.
+- The user can find visually breakdown any math or science problem in real time.
 
+- The user can append any notes that they fill out on the form.
 
-
-
-
-## Project Description-
-This is an app that allow you to communicate via video messaging and file sharing
-
-## What problem does your project solve?
-Video messaging with file sharing. Allows the user to upload while their messaging each other.
-
-## Who has this problem?
-Anyone actively file sharing while talking remotely allows digital files to be passed as you discuss them face to face.
-
-## How will your project solve this problem?
-While video messaging we can immediately transfer small files to each other.
-
-## What inputs does it need?
-Email address for video calling and a file input field to upload user items into.
-
-## What outputs does it produce?
-It will generate a live video feed and receive small files being sent from a recipient.
-
-## What web API(s) will it use?
-Kandy- Messaging and video calling
-
-## What technologies do you plan to use?
-HTML
-CSS
-CSS Framework
-Javascript
-JSON
-Ajax
-
-## Feature list
-Allows face to face messaging
-Seamless file transfer.
-Future updates will allow co-browsing
+- The user can adjust those notes and actively search for new content while adjusting any necessary information.
