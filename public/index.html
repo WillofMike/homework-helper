@@ -18,7 +18,7 @@
     </header>
     <main class="ui centered grid">
 
-      <div class= "ui internally celled grid" id="three-containers">
+      <div class="ui grid" id="three-containers">
 
         <div class="three wide column">
 
@@ -31,9 +31,17 @@
               <button type="submit" class="ui small primary basic button">Search</button>
             </div>
           </form>
-          <h3>Choose your strategies...</h3>
+          
 
-          <table class="align">
+          <table class="ui single line table">
+            <thead>
+              <tr>
+                <th>
+                <h3>Choose your strategies...</h3>
+                </th>
+                </tr>
+              </thead>
+              <tbody>
             <tr>
               <td class="right-border">
                 <input type="checkbox" name="guess" id="guess">
@@ -101,6 +109,7 @@
                 <label for="eliminate">Eliminate Possibilities</label>
               </td>
             </tr>
+          </tbody>
           </table>
         </div>
 
